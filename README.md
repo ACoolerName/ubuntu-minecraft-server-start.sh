@@ -5,9 +5,9 @@ Start script for Minecraft servers running on Ubuntu Linux.
 ### Configuration:
 
 On line 20:
-- Change `"cd minecraftserver/"` to the path to the working directory of your server.
-- Modify `"java -Xmx7G -jar"` to allocate the desired amount of RAM to the server (e.g., `"java -Xmx7G -jar"` for 7 gigabytes).
-- Update `"paper.jar"` with the name of your server.jar file (e.g., `"spigot.jar"`, `"paper-1.20.4-496.jar"`).
+- Change `cd minecraftserver/` to the path to the working directory of your server (e.g. `cd minecraft-1.20.4/`.
+- Modify `java -Xmx7G -jar` to allocate the desired amount of RAM to the server (e.g. `java -Xmx4G -jar` for 4 gigabytes).
+- Update `paper.jar` with the name of your server.jar file (e.g. `spigot.jar`, `paper-1.20.4-496.jar`).
 
 ### Other Useful Commands:
 
